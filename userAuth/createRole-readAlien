@@ -1,0 +1,1 @@
+db.createRole({ role: "readAlien", privileges: [{ resource: { db: "Aliens", collection: "" }, actions: ["find"]}], roles: [] })

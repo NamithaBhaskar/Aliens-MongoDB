@@ -1,0 +1,1 @@
+db.createRole({ role: "readWriteComments", privileges: [{ resource: { db: "Aliens", collection: "comments" }, actions: ["find", "insert"]}], roles: [] })
