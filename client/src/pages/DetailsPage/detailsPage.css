@@ -1,0 +1,79 @@
+.details-container{
+    backdrop-filter: blur(27px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.summary_title{
+    margin: 5rem 6rem;
+    background-color: rgb(255 255 255); /* Soft white background */
+    color: black;
+    padding: 1rem;
+}
+.summary_with_images{
+    background-color: rgb(255 255 255 / 36%); /* Soft white background */
+    /* border-radius: 2rem; */
+    margin: 0 9rem;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.alien_image {
+    height: 22rem;
+}
+
+.summary_text {
+    color: black;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem; /* Add some bottom margin for spacing */
+    overflow-y: scroll;
+    height: 22rem;
+}
+.previous_comments{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comment{
+    margin: 1rem;
+    padding: 0.2rem 1rem;
+    background-color: rgb(255 255 255 / 36%); /* Soft white background */
+}
+.comments{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.comment_input{
+    height: 4rem;
+    width: 25vw;
+    border-radius: 30px;
+    border: none;
+    background-color: #151427;
+    padding: 0.5rem 1.6rem;
+    color: white;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    /* Attempt to complement the gradient with shadows */
+   
+  }
+
+  .comment_button{
+    background-color: rgb(134, 118, 154);
+    border: none;
+    border-radius: 2rem;
+    color: #151427;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .summary_text a {
+    color: black;
+  }

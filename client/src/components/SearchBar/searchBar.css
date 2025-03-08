@@ -1,0 +1,63 @@
+.search_input{
+  height: 4rem;
+  width: 31vw;
+  border-radius: 30px;
+  background-color: white;
+  border: none;
+  background-image: linear-gradient(97deg, #f27272 0%, #7891f7 74%);
+  padding: 0.5rem 1.6rem;
+  color: white;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  /* Attempt to complement the gradient with shadows */
+  box-shadow: 
+    5px 5px 15px rgba(242,114,114,0.5), /* Light red shadow */
+    -5px -5px 15px rgba(120,145,247,0.5), /* Light blue shadow */
+    inset 1px 1px 2px rgba(242,114,114,0.2), /* Subtle inner shadow top-left */
+    inset -1px -1px 2px rgba(120,145,247,0.2); /* Subtle inner shadow bottom-right */
+}
+
+  ::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6em;
+  line-height: 1.1;
+}
+.search_component{
+  position: relative;
+}
+  
+  .search_button{
+    top: 0;
+    right:0;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    padding-top: 1.2%;
+    padding-right: 1%;
+    transition: all 0.5s ease-out; /* Transition only height and width */
+  }
+
+  .search_icon{
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .search_button:hover{
+   transform: scale(1.24);
+  }

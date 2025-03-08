@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+#root{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#main_container{
+  background-image: url('assets/aliens.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow-y: auto; /* Allow vertical scrolling */
+}

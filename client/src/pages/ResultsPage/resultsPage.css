@@ -1,0 +1,30 @@
+.results {
+    width: 90vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.search_term{
+    background-color: rgb(109, 37, 127);
+    border-radius: 10px;
+    padding: 0.3rem;
+}
+.search-container {
+    display: flex;
+    height: 20%;
+    width: 100vw;
+    flex-direction: row;
+}
+.results_container{
+    backdrop-filter: blur(27px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.results a {
+    text-decoration: none;
+    color: black;
+}
